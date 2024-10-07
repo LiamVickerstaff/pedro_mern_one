@@ -1,0 +1,3 @@
+Seperate the project's logic into client and server folders. 
+ - client folder holds stuff like the react apps
+ - server holds things like express, mongodb logic
