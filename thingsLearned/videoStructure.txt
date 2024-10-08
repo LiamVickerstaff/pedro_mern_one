@@ -1,0 +1,23 @@
+1 - npm create vite
+
+2 - Clerk setup
+
+3 - React Routes
+
+4 - Authentication
+
+5 - Forms
+
+6 - MongoDB
+
+7 - Express
+
+8 - data schemas
+
+9 - Express routes
+
+10 - useContext setup
+
+11 - updating MongoDb database
+
+12 - Front end page building        
