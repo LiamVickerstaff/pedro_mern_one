@@ -11,8 +11,10 @@ router.get("/getAllByUserID/:userId", async (req: Request, res: Response) => {
       return res.status(404).send("No records found for the user.");
     }
     res.status(200).send(records);
+    return;
   } catch (error) {
     res.status(500).send(error);
+    return;
   }
 });
 
@@ -39,7 +41,7 @@ router.put("/:id", async (req: Request, res: Response) => {
     if (!record) return res.status(404).send();
     res.status(200).send(record);
   } catch (error) {
-    res.status(500).send(error)
+    res.status(500).send(error);
   }
 });
 
@@ -52,7 +54,7 @@ router.delete("/:id", async (req: Request, res: Response) => {
     if (!record) return res.status(404).send();
     res.status(200).send(record);
   } catch (error) {
-    res.status(500).send(error)
+    res.status(500).send(error);
   }
 });
 
